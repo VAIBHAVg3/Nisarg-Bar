@@ -1,0 +1,193 @@
+body{
+    margin:0px;
+    background-color: #f1e7cc;
+}
+
+/* Header Section */
+header{
+    height: 120px;
+    /*border: 5px solid grey;*/
+    background-color: #fffffe;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navtext ul li{
+    float: left;
+    font-weight: bold;
+    
+}
+
+.navtext ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+li{
+    margin: 12px;
+    margin-right: 60px; 
+    margin-left: 10px;
+}
+
+ul{
+    font-size: 30px;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, sans-seri;
+}
+
+.profileicon img{
+    height: 120px;
+}
+
+
+/* Body Section */
+#dropdown{
+    height: 500px;
+    background-color: #f1e7cc;
+    border: 5px groove rgba(227, 230, 224, 0.712);
+    background-image: url('E:/nisarg bar/beermaterial/hotel-nisarg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+
+.boarditem{
+    height: 200px;
+    width: 400px;
+    display:flex;
+    flex-wrap: nowrap;
+    background-image: url('E:/nisarg bar/beermaterial/board.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.boarditem img{
+    height: 40px;
+    width: 40px;
+}
+
+/*         menu          */
+
+
+.menu{
+    height: 275px;
+    width: 88%;
+    margin-right: auto;
+    margin-left: 6%;
+    background-color: #ffffff;
+    /*border:5px dashed rgb(153, 44, 161);*/
+}
+
+.menu img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.sectionHeading{
+    margin-bottom: 1em;
+    font-family:SoDoSans_Bold,Helvetica,sans-serif!important ;
+    color:#1e3932;
+    padding-left: 0.35em;
+}
+
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+    font-family:SoDoSans_Bold,Helvetica,sans-serif!important ;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.menusec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+
+
+.menusec img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1px;
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+
+/* Location */
+
+.location{
+    height: 300px;
+    width: 100%;
+    border:0;
+    align-items: center;
+    display: flex;
+    /*border: 5px dashed #1e3932;*/
+}
+
+.map{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:1% ;
+    margin-left: 25% ;
+}
+
+iframe{
+    width: 65%;
+}
+
+
+/*owner management*/
+.management{
+    height: 380px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: 10%;
+    /*border: 5px dotted #a83822;*/
+}
+
+
+.family {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.family img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    margin: 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+. family span{
+    text-align: center;
+    font-family:SoDoSans_Bold,Helvetica,sans-serif!important ;
+}
+
+
+
+/*footer*/
+footer{
+    height: 275px;
+    width: 100%;
+}
